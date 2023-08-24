@@ -1,0 +1,37 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.image-container img 
+{
+    height:100vh;/*Enables height based on viewheight*/
+    width:100%;
+    object-fit: cover;
+}
+.button-play
+{
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    top:65%;
+    background-color: orange;
+    border:none;
+    font-size: 5.5vw;
+    border-radius: 12em;
+    border:5px solid rgb(233, 250, 246);
+    padding: 3vw 12vw;
+    color:rgb(14, 48, 62);
+    cursor: pointer;
+}
+.button-play i{
+    position: relative;
+    left:-5%;
+    display: inline;
+}
+.container{
+    display: flex;
+    justify-content:  center;
+}
